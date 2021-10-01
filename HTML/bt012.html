@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Thông Tin Đăng Ký</title>
+    </head>
+    <body>
+        <form action="../html.html">
+            <legend><h2 align="center">THÔNG TIN ĐĂNG KÝ</h2></legend>
+            <table border="1" width ="75%" style="background: turquoise;">
+                <tr>
+                    <td>Họ tên:</td>
+                    <td>
+                        <input type="text" name="name" placeholder="Nhập họ tên ở đây!">
+                    </td>
+                </tr>
+                <tr>
+                    <td>giới tính</td>
+                    <td>
+                        <input type="radio" name="sex" value="male" checked>Nam
+                        <input type="radio" name="sex" value="female">Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td>
+                        <input type="date" name="birthday">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Điều bạn quan tâm</td>
+                    <td>
+                        <input type="checkbox" name="interested" value="Kinh tế">Kinh tế
+                        <input type="checkbox" name="interested" value="Xã hội">Xã hội
+                        <input type="checkbox" name="interesred" value="Giải trí">Giải trí
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ:</td>
+                    <td>
+                        <textarea rows="5" cols="80"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Học vấn:</td>
+                    <td>
+                        <input list="levels" name="academiclevels">
+                        <datalist id="levels">
+                            <option value="Cao đẳng">Cao đẳng</option>
+                            <option value="Trung cấp">Trung cấp</option>
+                            <option value="Trung học">Trung học</option>
+                            <option value="Tiểu học">Tiểu học</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" name="submit" value="Gửi thông tin">
+                        <input type="reset" name="reset" value="Nhập lại">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <a href="HTML.html">Trở về Mục lục</a>
+    </body>
+</html>
